@@ -1,8 +1,13 @@
 #pragma once
 #include <vector>
 #include <iostream>
-typedef struct recipe
-{
-	std::vector<std::pair<std::string, bool>> ingredients;
-}recipe_t;
-void init_recipes();
+using namespace std;
+namespace reciptes {
+	vector<recipe_t> reciptes;
+	typedef struct recipe
+	{
+		vector<pair<string, bool>> ingredients;
+		
+	}recipe_t;
+	void init_recipes();
+}
