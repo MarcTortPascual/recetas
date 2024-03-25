@@ -1,5 +1,5 @@
 #include "receptas.hpp"
-
+using namespace std;
 
 void reciptes::init_recipes() {
 
@@ -21,7 +21,7 @@ void reciptes::init_recipes() {
 	reciptes::recipe_t ensalada;
 	reciptes::recipe_t flan_con_nata;
 	reciptes::recipe_t helado_frito;
-	reciptes::recipe_t macarones_con_boloñesa;
+	reciptes::recipe_t macarones_con_boloniesa;
 	reciptes::recipe_t mayonesa;
 
 	cout << "ok" << endl;
