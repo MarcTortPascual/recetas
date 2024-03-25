@@ -17,13 +17,13 @@ void reciptes::init_recipes() {
 	obligatorio(sopa, "apio");
 	obligatorio(sopa, "puerro");
 	obligatorio(sopa, "nabo");
-	opcional(sopa,"hueso de jamón")
+	opcional(sopa,"hueso de jamon")
 	opcional(sopa, "polla")
 	alta(sopa)
 	reciptes::recipe_t paella;
 	paella.name = "Paella";
 	obligatorio(paella,"arroz")
-	obligatorio(paella,"azafrán")
+	obligatorio(paella,"azafran")
 	opcional(paella,"conejo")
 	opcional(paella,"pollo")
 	alta(paella)
@@ -31,7 +31,7 @@ void reciptes::init_recipes() {
 	pollo_relleno.name = "Pollo relleno";
 	obligatorio(pollo_relleno,"pollo")
 	obligatorio(pollo_relleno,"queso")
-	obligatorio(pollo_relleno, "jamón")
+	obligatorio(pollo_relleno, "jamon")
 	opcional(pollo_relleno,"huevo")
 	opcional(pollo_relleno, "olivas")
 	opcional(pollo_relleno, "pimiento")
