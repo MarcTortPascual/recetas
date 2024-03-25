@@ -25,6 +25,9 @@ int main() {
 	vector<reciptes::recipe_t> results = reciptes::get_recipes(user_ingredients);
 	for (reciptes::recipe_t i : results ) {
 		cout << i.name << endl;
+		for (string j : i.should_ingredients) {
+			cout << "A " << i.name << " Le puedes introducir: " << j << endl;
+		}
 	}
 }
 

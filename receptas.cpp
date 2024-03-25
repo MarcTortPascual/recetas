@@ -14,9 +14,9 @@ void reciptes::init_recipes() {
 	alta(tortilla_de_patatas)
 	reciptes::recipe_t sopa;
 	sopa.name = "Sopa";
-	obligatorio(sopa, "apio");
-	obligatorio(sopa, "puerro");
-	obligatorio(sopa, "nabo");
+	obligatorio(sopa, "apio")
+	obligatorio(sopa, "puerro")
+	obligatorio(sopa, "nabo")
 	opcional(sopa,"hueso de jamon")
 	opcional(sopa, "pollo")
 	alta(sopa)
