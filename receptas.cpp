@@ -18,7 +18,7 @@ void reciptes::init_recipes() {
 	obligatorio(sopa, "puerro");
 	obligatorio(sopa, "nabo");
 	opcional(sopa,"hueso de jamon")
-	opcional(sopa, "polla")
+	opcional(sopa, "pollo")
 	alta(sopa)
 	reciptes::recipe_t paella;
 	paella.name = "Paella";
