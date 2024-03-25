@@ -5,7 +5,7 @@ VisualStudioVersion = 17.7.34202.233
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recetas", "recetas.vcxproj", "{1449D063-8A9F-4532-8037-B657A2C28C9B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recetas_cliente", "..\recetas_cliente\recetas_cliente.vcxproj", "{644FC43E-5435-429B-9CE5-33959F9D84EB}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "recetas_cliente", "recetas_cliente\recetas_cliente.vcxproj", "{644FC43E-5435-429B-9CE5-33959F9D84EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

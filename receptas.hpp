@@ -1,12 +1,17 @@
 #pragma once
 #include <vector>
 #include <iostream>
+using namespace std;
 namespace reciptes {
 	typedef struct recipe
 	{
-		std::vector<std::pair<std::string, bool>> ingredients;
+		string name;
+		vector<string> must_ingredients;
+		vector<string> should_ingredients;
 		
 	}recipe_t;
-	std::vector<recipe_t> reciptes;
+	
 	void init_recipes();
+	vector<recipe_t> get_recipes(vector<string> ingedient);
+
 }
