@@ -26,7 +26,10 @@ int main() {
 	for (reciptes::recipe_t i : results ) {
 		cout << i.name << endl;
 		for (string j : i.should_ingredients) {
-			cout << "A " << i.name << " Le puedes introducir: " << j << endl;
+			if (std::find(user_ingredients.begin(), user_ingredients.end(), j) != user_ingredients.end())
+				continue;
+			else
+				cout << "A " << i.name << " Le puedes introducir: " << j << endl;
 		}
 	}
 }

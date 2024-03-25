@@ -36,6 +36,14 @@ void reciptes::init_recipes() {
 	opcional(pollo_relleno, "olivas")
 	opcional(pollo_relleno, "pimiento")
 	alta(pollo_relleno)
+	reciptes::recipe_t pizza_jamon_queso;
+	pizza_jamon_queso.name = "Pizza de jamon";
+	opcional(pizza_jamon_queso, "queso")
+	opcional(pizza_jamon_queso,"pimiento")
+	opcional(pizza_jamon_queso, "olivas")
+	obligatorio(pizza_jamon_queso, "jamon")
+	obligatorio(pizza_jamon_queso, "tomate")
+	alta(pizza_jamon_queso)
 	reciptes::recipe_t empanadillas_de_atun;
 	empanadillas_de_atun.name = "Empanadillas de atun";
 	obligatorio(empanadillas_de_atun,"holjandre")
